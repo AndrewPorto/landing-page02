@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    
+}
+
+header {
+   background: url(../img/bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #FFF;
+   width: 100%;
+   height: 450px;
+   
+}
+
+header::before {
+    content: "";
+    background-color: rgba(51, 51, 51, 0.644);
+    width: 100%;
+    height: 450px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    
+
+}
+
+header .header-cont {
+    position: relative;
+    text-align: center;
+    
+}
+    
+
+header h1 {
+    opacity: none;
+    padding-top: 100px; 
+    font-size: 35.2px;
+    
+}
+
+header p {
+    font-size: 17.6px;
+    width: 820px;
+    margin: 0 auto;
+    margin-top: 31px;
+    line-height: 25px;
+    
+}
+
+header button {
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 18px 30px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #333;
+    border: 1px solid #666666;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background: #eaeaea;
+    color: #333;
+}
+
+img {
+    width: 270px;
+}
+
+.first-section {
+    background-color: #EAEAEA;
+    text-align: center;
+    padding-top: 30px;
+    color: #333;
+    padding-bottom: 30px;
+    
+}
+
+.first-section h2{
+    font-size: 26.4px;
+    
+}
+
+.first-section p {
+    columns: 2;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 17.6px;
+    line-height: 1.5;
+    margin-top: 20px;
+    
+}
+
+.cards {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.card {
+    width: 270px;
+    height: 500px;
+    align-items: center;
+    background-color: #FFF;
+    margin-top: 35px;
+    color: #333;
+    margin-left: 25px;
+    margin-bottom: 30px;   
+}
+
+.card h2 {
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.card p {
+    padding: 20px;
+    font-size: 17.6px;
+    margin-top: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.digital-needs {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.digital-needs h2 {
+    padding: 55px 0;
+    font-size: 26.4px;
+}
+
+.digital-needs p {
+    font-size: 17.6px;
+    width: 46%;
+    margin: 0 auto;
+}
+
+.pre-footer {
+    display: flex;
+    height: 310px; 
+}
+
+.pre-footer .contact {
+    background-color: #2690D4;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.pre-footer .about {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.pre-footer h2 {
+    padding: 55px;
+}
+
+.pre-footer p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 17.6px;
+    line-height: 1.5;
+}
+
+.email {
+    padding-top: 40px;
+}
+
+footer {
+    display: flex;
+    height: 90px;
+    background-color: #000;
+    color: #FFF;
+}
+
+footer .rodape {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 17.6px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #1B90D4;
+    font-weight: bold;
+}
