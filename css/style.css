@@ -207,13 +207,24 @@ footer .rodape {
 }
 
 @media (max-width: 770px) {
+    header {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .header-cont p {
+        width: 100%;
+    }
+
     .first-section p {
         columns: 1;
+        
     }
 
     .cards {
         flex-direction: column;
         align-items: center;  
+        
     }
 
    .pre-footer {
@@ -221,6 +232,7 @@ footer .rodape {
         flex-wrap: wrap;
         height: 320px;
         position: relative;
+        
     
    }
    .pre-footer .contact {
@@ -243,7 +255,6 @@ footer .rodape {
        width: 100%;
        align-items: center;
        height: 120px;
-       f
     }
 
 }
